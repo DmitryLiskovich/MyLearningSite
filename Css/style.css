@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+}
+
+.header {
+    width: 1600px; height: 943px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.image {
+    height: 943px;
+    width: 1600px;
+}
+.image img {
+    width: 1710;
+    height: 961;
+    margin: 0 113px 0 0;
+}
+
+.image-text{
+    top: 0;
+    width: 1600px;
+    height: 943px;
+    position: absolute;
+    font-size: 40pt;
+    color: white;
+    background-color: rgba(0, 0, 0, .8);
+
+}
+
+.image-text h2{
+    font-family: Myriad;
+    text-align: center;
+    margin: 435px 0 0 0;
+}
+
+.image-text p{
+    text-align: center;
+    margin: auto;
+    font-size: 32pt;
+    font-family: Georgia;
+}
+
+.navigation img{
+    position: absolute;
+    top: 0;
+    margin-left: 128px;
+    margin-top: 32px;
+}
+
+.navigation p{
+    top: 0;
+    display: inline-block;
+    position: absolute;
+    font-size: 14pt;
+    font-family: Tahoma;
+    margin-top: 37px;
+    Margin-left: 693px;
+    word-spacing: 50px;
+}
+
+.slider{
+    top: 0;
+    display: inline-block;
+    position: absolute;
+    margin-top: 60px;
+}
+
+.Main {
+    width: 1600px; height: 2275px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Registr{
+    color: white;
+    display: inline-block;
+    width: 1600px;
+    height: 121px;
+    background-color: #2fac6c;
+}
+
+.Login{
+    color: white;
+    position: absolute;
+    top: 943px;
+    width: 810px;
+    height: 121px;
+    background-color: #203747;
+    background:linear-gradient(-80deg, transparent 40px, #203747 0);
+}
+
+.Registr p{
+    position: relative;
+    margin: 45px 431px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    text-align: right;
+}
+
+.Login p{
+    position: relative;
+    margin-left: 431px;
+    margin-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+}
+
+.Login p:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
+.Registr p:hover {
+    opacity: .7;
+    cursor: pointer;
+}
