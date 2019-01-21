@@ -116,3 +116,58 @@ body{
     opacity: .7;
     cursor: pointer;
 }
+
+.finding-text{
+    text-align: center;
+    width: 1600px;
+    margin-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.finding-text h3{
+    font-size: 24pt;
+}
+
+.finding-text p{
+    font-size: 16pt;
+    color: lightgray;
+}
+
+.table-input{
+    width: 889px;
+    height: 50px;
+    margin-left: 355px;
+    margin-top: 49px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+    font-size: 10pt;
+    border-collapse: collapse;
+}
+
+.table-input tr{
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+}
+
+.table-input th{
+    border-width: 1px;
+    border-color: lightgrey;
+    border-style: solid;
+
+}
+
+.domen-input{
+    width: 775px; height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    border: none;
+    font-size: 12pt;
+    text-indent: 10px;
+}
+
+.menu{
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+    border: none;
+}
