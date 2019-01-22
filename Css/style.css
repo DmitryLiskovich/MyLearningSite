@@ -126,6 +126,7 @@ body{
 
 .finding-text h3{
     font-size: 24pt;
+    color: #888787;
 }
 
 .finding-text p{
@@ -142,32 +143,50 @@ body{
     color: lightgray;
     font-size: 10pt;
     border-collapse: collapse;
+    text-align: center;
 }
 
-.table-input tr{
-    border-width: 1px;
-    border-color: lightgray;
-    border-style: solid;
-}
-
-.table-input th{
+.table-input td{
     border-width: 1px;
     border-color: lightgrey;
     border-style: solid;
-
+    margin: 9px 0;
 }
 
-.domen-input{
-    width: 775px; height: 50px;
+.table-input.just{
+    height: 194px;
+}
+
+.table-input.just td{
+    width: 222px;
+}
+
+
+.domen-input {
+    width: 730px; height: 50px;
     font-family: Arial, Helvetica, sans-serif;
     color: gray;
     border: none;
     font-size: 12pt;
     text-indent: 10px;
+    outline: none;
 }
 
 .menu{
     font-family: Arial, Helvetica, sans-serif;
     color: lightgray;
     border: none;
+    height: 50px;
+    outline: none;
+}
+
+.img-main {
+    height: 383px;
+    width: 1600px;
+    overflow: hidden;
+    margin: 91px 0 0 0;
+}
+
+.img-main img{
+    margin: -252px 0 0 0;
 }
