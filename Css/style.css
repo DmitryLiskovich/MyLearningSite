@@ -60,11 +60,25 @@ body{
     word-spacing: 50px;
 }
 
-.slider{
+.preslider{
     top: 0;
     display: inline-block;
     position: absolute;
-    margin-top: 60px;
+    margin-top: 45px;
+    margin-left: 125px;
+}
+
+.slider{
+    stroke: rgba(151, 151, 151, 0.568);
+    stroke-width: 2px;
+}
+
+.slide{
+    stroke: rgba(224, 224, 224, 0.932);
+    stroke-width: 2px;
+    position: absolute;
+    top: 0px;
+    left: 570px;
 }
 
 .Main {
@@ -161,7 +175,6 @@ body{
     width: 222px;
 }
 
-
 .domen-input {
     width: 730px; height: 50px;
     font-family: Arial, Helvetica, sans-serif;
@@ -189,4 +202,117 @@ body{
 
 .img-main img{
     margin: -252px 0 0 0;
+}
+
+.package{
+    width: 255px; height: 565px;
+    position: absolute;
+    top: 100px;
+    background-color: white;
+    box-shadow: 0 3px 20px rgba(0,0,0,.2);
+
+}
+
+.allpack{
+    position: absolute;
+    top: 1750px;
+    width: 1200px;
+    height: 565px;
+    margin-left: 200px
+}
+
+.pack-line{
+    stroke: #f9d423;
+    stroke-width: 5px;
+    position: absolute;
+}
+
+.circl.y{
+    stroke: #f9d423;
+    fill: transparent;
+    stroke-width: 8px;
+    margin-left: 80px;
+    margin-top: 60px;
+    position: absolute;
+    stroke-dasharray: 200px;
+    stroke-dashoffset: 210px;
+    stroke-linecap: round;
+    background-image: url('C:/Users/Дмитрий/Desktop/My_site/Img/anchor.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.package h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 160px;
+}
+
+.table-traf{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    margin-left: 27px;
+    color: lightgray;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    height: 250px;
+    width: 200px;
+    border-color: lightgray;
+}
+
+sub {
+    color: lightgray;
+}
+.price {
+    font-size: 20pt;
+    margin-top: 20px;
+    text-align: center;
+    word-spacing: -7px;
+}
+
+.price sub, sup {
+    font-size: 12pt;
+}
+
+.pack-line.price{
+    margin-left: 75px;
+    margin-top: -20px;
+}
+
+.selectP1{
+    text-align: center;
+    font-size: 16pt;
+    margin-top: -5px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.allpack.r{
+    position: absolute;
+    top: 1750px;
+    width: 1200px;
+    height: 565px;
+    margin-left: 514px
+}
+
+.pack-line.r{
+    stroke: #7f8c8d;
+    stroke-width: 5px;
+    position: absolute;
+}
+
+.circl.r{
+    stroke: #7f8c8d;
+    fill: transparent;
+    stroke-width: 8px;
+    margin-left: 80px;
+    margin-top: 60px;
+    position: absolute;
+    stroke-dasharray: 134px;
+    stroke-dashoffset: 76px;
+    stroke-linecap: round;
+    background-image: url('C:/Users/Дмитрий/Desktop/My_site/Img/Star.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
