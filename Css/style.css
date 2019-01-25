@@ -232,7 +232,7 @@ body{
     fill: transparent;
     stroke-width: 8px;
     margin-left: 80px;
-    margin-top: 60px;
+    margin-top: 40px;
     position: absolute;
     stroke-dasharray: 200px;
     stroke-dashoffset: 210px;
@@ -282,7 +282,7 @@ sub {
 
 .selectP1{
     text-align: center;
-    font-size: 16pt;
+    font-size: 12pt;
     margin-top: -5px;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
@@ -307,12 +307,68 @@ sub {
     fill: transparent;
     stroke-width: 8px;
     margin-left: 80px;
-    margin-top: 60px;
+    margin-top: 40px;
     position: absolute;
     stroke-dasharray: 134px;
     stroke-dashoffset: 76px;
     stroke-linecap: round;
     background-image: url('C:/Users/Дмитрий/Desktop/My_site/Img/Star.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.allpack.red{
+    position: absolute;
+    top: 1750px;
+    width: 1200px;
+    height: 565px;
+    margin-left: 828px
+}
+
+.pack-line.red{
+    stroke: #f85f40;
+    stroke-width: 5px;
+    position: absolute;
+}
+
+.circl.red{
+    stroke: #f85f40;
+    fill: transparent;
+    stroke-width: 8px;
+    margin-left: 80px;
+    margin-top: 40px;
+    position: absolute;
+    stroke-dasharray: 265px;
+    stroke-dashoffset: 76px;
+    stroke-linecap: round;
+    background-image: url('C:/Users/Дмитрий/Desktop/My_site/Img/starfull.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(30deg);
+}
+
+.allpack.green{
+    position: absolute;
+    top: 1750px;
+    width: 1200px;
+    height: 565px;
+    margin-left: 1142px
+}
+
+.pack-line.green{
+    stroke: #1abc9c;
+    stroke-width: 5px;
+    position: absolute;
+}
+
+.circl.green{
+    stroke: #1abc9c;
+    fill: transparent;
+    stroke-width: 8px;
+    margin-left: 80px;
+    margin-top: 40px;
+    position: absolute;
+    stroke-linecap: round;
+    background-image: url('C:/Users/Дмитрий/Desktop/My_site/Img/Diamond.jpg');
     background-repeat: no-repeat;
     background-position: center;
 }
