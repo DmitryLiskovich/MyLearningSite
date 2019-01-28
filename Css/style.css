@@ -3,6 +3,7 @@ body{
 }
 
 .header {
+    position: relative;
     width: 1600px; height: 943px;
     margin: auto;
     overflow: hidden;
@@ -82,7 +83,7 @@ body{
 }
 
 .Main {
-    width: 1600px; height: 2275px;
+    width: 1600px; height: 2600px;
     margin: auto;
     overflow: hidden;
 }
@@ -216,7 +217,6 @@ body{
 .allpack{
     position: absolute;
     top: 1750px;
-    width: 1200px;
     height: 565px;
     margin-left: 200px
 }
@@ -291,7 +291,6 @@ sub {
 .allpack.r{
     position: absolute;
     top: 1750px;
-    width: 1200px;
     height: 565px;
     margin-left: 514px
 }
@@ -319,7 +318,6 @@ sub {
 .allpack.red{
     position: absolute;
     top: 1750px;
-    width: 1200px;
     height: 565px;
     margin-left: 828px
 }
@@ -337,19 +335,18 @@ sub {
     margin-left: 80px;
     margin-top: 40px;
     position: absolute;
-    stroke-dasharray: 265px;
+    stroke-dasharray: 252px;
     stroke-dashoffset: 76px;
     stroke-linecap: round;
     background-image: url('C:/Users/Дмитрий/Desktop/My_site/Img/starfull.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    transform: rotate(30deg);
+    transform: rotate(-72deg);
 }
 
 .allpack.green{
     position: absolute;
     top: 1750px;
-    width: 1200px;
     height: 565px;
     margin-left: 1142px
 }
@@ -371,4 +368,188 @@ sub {
     background-image: url('C:/Users/Дмитрий/Desktop/My_site/Img/Diamond.jpg');
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.underline{
+    stroke: lightgray;
+    position: relative;
+    margin-left: 200px;
+    stroke-dasharray: 6px;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    margin-top: 500px;
+}
+
+.about-us{
+    position: absolute;
+    width: 400px;
+    height: 220px;
+    margin-top: 100px;
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-us p{
+    font-size: 12pt;
+    color: gray;
+}
+
+.borderline{
+    stroke: lightgray;
+    position: absolute;
+    margin-left: 719px;
+    stroke-dasharray: 6px;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    margin-top: 100px;
+
+}
+
+.profile{
+    width: 120px;
+    height: 135px;
+    border: gray;
+    border-radius: 60px;
+    border-style: solid;
+    position: absolute;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.profile.jonny{
+    margin-left: 825px;
+    height: 90px;
+    width: 90px;
+    background-image: url('C:/Users/Дмитрий/Desktop/My_site/Img/Jonny.jpg')
+}
+.info {
+    height: 25px;
+    width: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.info h1{
+    margin-top: 100px;
+    font-size: 12pt;
+}
+
+.info p{
+    margin-top: 3px;
+    font-size: 12pt;
+}
+
+.social-logo.jonny{
+    margin-top: 325px;
+    margin-left: 827px;
+    position: absolute;
+}
+
+.social-logo.jonny img{
+    margin-right: 20px;
+}
+
+.profile.john{
+    margin-left: 1067px;
+    height: 90px;
+    width: 90px;
+    background-image: url('C:/Users/Дмитрий/Desktop/My_site/Img/john.jpg')
+}
+
+.social-logo.john{
+    margin-top: 325px;
+    margin-left: 1069px;
+    position: absolute;
+}
+
+.social-logo.john img{
+    margin-right: 20px;
+}
+
+.profile.johnat{
+    margin-left: 1300px;
+    height: 90px;
+    width: 90px;
+    background-image: url('C:/Users/Дмитрий/Desktop/My_site/Img/johnat.jpg')
+}
+
+.social-logo.johnat{
+    margin-top: 325px;
+    margin-left: 1302px;
+    position: absolute;
+}
+
+.social-logo.johnat img{
+    margin-right: 20px;
+}
+
+.pre-footer{
+    width: 1600px; height: 190px;
+    overflow: hidden;
+    margin-left: auto;
+    position: absolute;
+    margin-top: 450px;
+}
+
+.pre-footer img{
+    margin-top: -435px
+}
+
+.quote{
+    position: absolute;
+    margin-left: 375px;
+    width: 850px;
+    margin-top: 53px;
+    top: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    text-align: center;
+}
+
+.quote-autor{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    margin: 0;
+}
+
+.autor-slider{
+    position: absolute;
+    width: 155px;
+    height: 30px;
+    margin-left: 726px;
+    margin-top: 112px;
+    top: 0;
+}
+
+.quote-slider-line{
+    stroke: white;
+    stroke-width: 2px;
+    position: absolute;
+    top: 0;
+    margin-left: 105px;
+}
+
+.slider-point
+{
+    stroke: white;
+    stroke-width: 2px;
+    position: absolute;
+    top:6px;
+}
+
+.slider-point.active{
+    margin-left: 120px;
+    fill: white;
+}
+
+.slider-point.not-active{
+    fill: transparent;
+    margin-left: 140px;
+}
+
+.slider-point.not-active.second{
+    margin-left: 160px;
 }
