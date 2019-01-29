@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
 body{
     margin: 0px;
 }
@@ -553,3 +555,277 @@ sub {
 .slider-point.not-active.second{
     margin-left: 160px;
 }
+
+.other-information{
+    width: 1600px; height: 342px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+
+}
+
+.inform-circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.inform-circle.fast-server{
+    margin-top: 99px;
+    background-color: #f1c40f;
+    margin-left: 282px;
+}
+
+.inform-circle.fast-server p{
+    margin-left: 23px;
+    margin-top: 14px;
+    font-size:22pt; color:white;
+}
+
+.fast-server-text{
+    margin-left:200px;
+    text-align: center;
+    width: 221px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+.fast-server-text h1{
+    font-size: 14pt;
+    margin-bottom: 5px;
+    margin-top: 180px;
+}
+
+.fast-server-text p{
+    margin-top: 0px;
+    font-size: 12pt;
+    color: lightgray;
+}
+
+.inform-circle.cloud-server{
+    margin-top: 99px;
+    background-color: #0faff1;
+    margin-left: 607px;
+}
+
+.inform-circle.cloud-server p{
+    margin-left: 14px;
+    margin-top: 14px;
+    font-size:22pt; color:white;
+}
+
+.fast-cloud-text{
+    margin-left:525px;
+    text-align: center;
+    width: 221px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+.fast-cloud-text h1{
+    font-size: 14pt;
+    margin-bottom: 5px;
+    margin-top: 180px;
+}
+
+.fast-cloud-text p{
+    margin-top: 0px;
+    font-size: 12pt;
+    color: lightgray;
+}
+
+.inform-circle.cloud-server{
+    margin-top: 99px;
+    background-color: #0faff1;
+    margin-left: 607px;
+}
+
+.inform-circle.cloud-server p{
+    margin-left: 14px;
+    margin-top: 14px;
+    font-size:22pt; color:white;
+}
+
+.fast-cloud-text{
+    margin-left:525]px;
+    text-align: center;
+    width: 221px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+.fast-cloud-text h1{
+    font-size: 14pt;
+    margin-bottom: 5px;
+    margin-top: 180px;
+}
+
+.fast-cloud-text p{
+    margin-top: 0px;
+    font-size: 12pt;
+    color: lightgray;
+}
+
+.inform-circle.domain{
+    margin-top: 99px;
+    background-color: #95a5a6;
+    margin-left: 932px;
+}
+
+.inform-circle.domain p{
+    margin-left: 15px;
+    margin-top: 16px;
+    font-size:22pt; color:white;
+}
+
+.fast-domain-text{
+    margin-left:855px;
+    text-align: center;
+    width: 221px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+.fast-domain-text h1{
+    font-size: 14pt;
+    margin-bottom: 5px;
+    margin-top: 180px;
+}
+
+.fast-domain-text p{
+    margin-top: 0px;
+    font-size: 12pt;
+    color: lightgray;
+}
+
+.inform-circle.support{
+    margin-top: 99px;
+    background-color: #f1540f;
+    margin-left: 1257px;
+}
+
+.inform-circle.support p{
+    margin-left: 15px;
+    margin-top: 16px;
+    font-size:22pt; color:white;
+}
+
+.fast-support-text{
+    margin-left:1180px;
+    text-align: center;
+    width: 221px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+.fast-support-text h1{
+    font-size: 14pt;
+    margin-bottom: 5px;
+    margin-top: 180px;
+}
+
+.fast-support-text p{
+    margin-top: 0px;
+    font-size: 12pt;
+    color: lightgray;
+}
+
+.footer{
+    width: 1600px;
+    height: 294px;
+    background-color: #2a2a2a;
+    margin: auto;
+}
+
+.footer-navigation{
+    width: 1197px;
+    height: 75px;
+    margin: 23px 0 0 201px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+.footer-navigation img{
+    margin-top: 23px;
+    margin-right: 632px;
+    opacity: 0.5;    
+}
+
+.footer-navigation.isActive{
+    margin-top:5px;
+    width: auto; height: auto;
+    color:white;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 20px;
+
+}
+
+.footer-navigation.notActive{
+    margin-top: 5px;
+    width: auto; height: auto;
+    color: gray;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.footer-line{
+    stroke: gray;
+    margin-top: 30px;
+    stroke-width: 2px;
+    margin-left: -10px;
+}
+
+.footer-information{
+    width: 300px;
+    height: 135px;
+    color: gray;
+    font-size: 12pt;
+    margin-left: 201px;
+    border-right: gray;
+    border-width: 0 2px 0 0;
+    border-style: solid;
+    padding-right: 70px;
+    padding-top: 20px;
+    margin-top: 50px;
+    line-height: 25px;
+    display:inline-block;
+    cursor: pointer;
+}
+
+.inform-list{
+    display: inline-block;
+    width: 110px;
+    color: gray;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.inform-list p{
+    display: block;
+}
+
+.inform-list.second{
+    border-right: gray;
+    border-width: 0 2px 0 0;
+    border-style: solid;
+    padding-right: 70px;
+}
+
+.contact-information{
+    display: inline-block;
+    width: 270px;
+    margin: 0 0 0 100px;
+    color: gray;
+}
+
+.contact-information p{
+    margin: 14px 0 0 0;
+}
+
