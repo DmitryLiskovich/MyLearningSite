@@ -328,22 +328,22 @@
                             </div>
                 <div class="pre-footer">
                     <img src="Img/pre-footer.jpg" width="100%">
-                    <p class="quote"><i>“Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui
+                    <p class="quote"><i id="qoute">“Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui
                         interdum dolor pulvinar vitae.”</i></p>
                         <div class="autor-slider">
-                        <p class="quote-autor">
+                        <p class="quote-autor" id="qouteAuthor">
                             John Doe
                         </p>
                         <svg class="quote-slider-line" width="2px" height="20px">
                             <line x1='0' x2='0' y1='0' y2='20px'></line>
                         </svg>
-                        <svg class="slider-point active"  width="9px" height="9px">
+                        <svg class="slider-point first active" id="pointFirst"  width="9px" height="9px">
                             <circle r="4px" cx="4.5px" cy="4.5px"></circle>
                         </svg>
-                        <svg class="slider-point not-active"  width="9px" height="9px">
+                        <svg class="slider-point second" id="pointSecond"  width="9px" height="9px">
                             <circle r="4px" cx="4.5px" cy="4.5px"></circle>
                         </svg>
-                        <svg class="slider-point not-active second"  width="9px" height="9px">
+                        <svg class="slider-point third" id="pointThird"  width="9px" height="9px">
                             <circle r="4px" cx="4.5px" cy="4.5px"></circle>
                         </svg>
                         </div>
@@ -370,11 +370,11 @@
         <div class="footer">
             <div class="footer-navigation">
                 <img src="Img/Logo.png">
-                <div class="footer-navigation isActive">HOME</div>
-                <div class="footer-navigation notActive">ABOUT US</div>
-                <div class="footer-navigation notActive">BLOG</div>
-                <div class="footer-navigation notActive">POLICY</div>
-                <div class="footer-navigation notActive">CONTACT</div>
+                <div class="footer-navigation isActive"> HOME</div>
+                <div class="footer-navigation notActive"> ABOUT US</div>
+                <div class="footer-navigation notActive"> BLOG</div>
+                <div class="footer-navigation notActive"> POLICY</div>
+                <div class="footer-navigation notActive"> CONTACT</div>
                 <svg class="footer-line" width="1197px" height="5px">
                     <line x1="0" y1="0" x2="1197px" y2="0"></line>
                 </svg>
@@ -387,16 +387,16 @@
                 <p>Design by <b>Mert Can Eyriyer.</b></p> 
             </div>
             <div class="inform-list">
-                <p class="fa fa-angle-right 2" id="isAcitve">Support</p>
-                <p class="fa fa-angle-right 2">Account</p>
-                <p class="fa fa-angle-right 2">Product Catalog</p>
-                <p class="fa fa-angle-right 2">Shortcodes</p>
+                <p class="fa fa-angle-right 2" id="isAcitve"> Support</p>
+                <p class="fa fa-angle-right 2"> Account</p>
+                <p class="fa fa-angle-right 2"> Product Catalog</p>
+                <p class="fa fa-angle-right 2"> Shortcodes</p>
             </div>
             <div class="inform-list second">
-                <p class="fa fa-angle-right 2" id="isAcitve">Site Map</p>
-                <p class="fa fa-angle-right 2">Whois Search</p>
-                <p class="fa fa-angle-right 2">Web Mail</p>
-                <p class="fa fa-angle-right 2">Find Domain</p>
+                <p class="fa fa-angle-right 2" id="isAcitve"> Site Map</p>
+                <p class="fa fa-angle-right 2"> Whois Search</p>
+                <p class="fa fa-angle-right 2"> Web Mail</p>
+                <p class="fa fa-angle-right 2"> Find Domain</p>
             </div>
             <div class="contact-information">
                 <p class="fa fa-phone"> 0000-0000-0000</p>
@@ -406,6 +406,7 @@
             </div>
         </div>
     </footer>
+    <script src="js\quote.js"></script>
     <script src="js\imgslide.js"></script>
 </body>
 </html>

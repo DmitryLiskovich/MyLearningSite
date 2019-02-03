@@ -514,6 +514,8 @@ sub {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16pt;
+    width: 110px;
+    text-align: center;
     margin: 0;
 }
 
@@ -531,30 +533,9 @@ sub {
     stroke-width: 2px;
     position: absolute;
     top: 0;
-    margin-left: 105px;
+    margin-left: 115px;
 }
 
-.slider-point
-{
-    stroke: white;
-    stroke-width: 2px;
-    position: absolute;
-    top:6px;
-}
-
-.slider-point.active{
-    margin-left: 120px;
-    fill: white;
-}
-
-.slider-point.not-active{
-    fill: transparent;
-    margin-left: 140px;
-}
-
-.slider-point.not-active.second{
-    margin-left: 160px;
-}
 
 .other-information{
     width: 1600px; height: 342px;
@@ -801,7 +782,7 @@ sub {
 
 .inform-list{
     display: inline-block;
-    width: 110px;
+    width: 115px;
     color: gray;
     margin-top: 10px;
     margin-left: 100px;
@@ -829,3 +810,31 @@ sub {
     margin: 14px 0 0 0;
 }
 
+.slider-point
+{
+    stroke: white;
+    stroke-width: 2px;
+    position: absolute;
+    top:6px;
+    cursor: pointer;
+}
+
+.slider-point.first{
+    margin-left: 130px;
+}
+
+.slider-point.second{
+    margin-left: 150px;
+}
+
+.slider-point.third{
+    margin-left: 170px;
+}
+
+.slider-point.active{
+    fill: white;
+}
+
+.slider-point.notActive{
+    fill: transparent;
+}
