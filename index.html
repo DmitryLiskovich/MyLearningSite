@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Ghost Host</title>
     <link href="Css\style.css" rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <div id="login-back" class="back-login invisable" height="100%">
+        <div class="login invisible" id="login">
+                <h1>Sign in</h1>
+                <input id="login-value" class="login-input" type="text" placeholder="Login">
+                <input id="password" class="password-input" type="password" placeholder="Password">
+                <button class="sign-in" id="sign-in">Sign          in</button>
+                <p>or <i>Register</i></p>
+        </div>
+    </div>
     <header>
         <div class="header">
             <div class="image">
@@ -27,7 +36,7 @@
                             <a href="http://pornhub.com">
                             <img src="Img/Logo.png">
                             </a>
-                            <p>Home Domain Hostings Clients Blog Support</p>
+                            <p id="scrolling">Home Domain Hostings Clients Blog Support</p>
                             <div class="preslider">
                             <svg width='1197px' height='2px'>
                                 <line  class='slider' x1='0' y1='0' x2='1197px' y2='0'>
@@ -50,7 +59,7 @@
                 <div class="Registr">
                     <p>REGISTR</p>
                 </div>
-                <div class="Login">
+                <div class="Login" id="login-page">
                     <p>LOGIN</p>
                 </div>
                 <div class="finding-text">

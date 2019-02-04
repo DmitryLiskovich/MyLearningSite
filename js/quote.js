@@ -1,5 +1,13 @@
 var itterator = 0;
 
+
+document.getElementById("scrolling").addEventListener("click", scroll, false);
+
+function scroll(){
+    window.scrollBy(0, +100);
+    window.pageYOffset < 1700 ? requestAnimationFrame(scroll) : window.pageYOffset;
+}
+
 document.getElementById("pointFirst").addEventListener("click", firstPoint, false);
 
 function firstPoint(){
@@ -52,4 +60,31 @@ function thirdPoint(){
     itterator++;
 }
 
+document.getElementById("sign-in").addEventListener("click", signIn, false);
 
+function signIn(){
+
+    users = ["dimalis", "admin", "user"];
+    let currentUser = document.getElementById("login-value").value;
+    let userIsReal = false;
+    for (user of users)
+    {
+        user == currentUser ? userIsReal = true : userIsReal;
+    }
+
+    if (userIsReal == true && document.getElementById("password").value == "164200"){
+        document.getElementById("login").className = "login invisible";
+        document.getElementById("login-back").className = "back-login invisable";
+    }
+    else{
+        alert("User not found");
+    }
+
+}
+
+document.getElementById("login-page").addEventListener("click", signInPage, false);
+
+function signInPage (){
+    document.getElementById("login").className = "login";
+    document.getElementById("login-back").className = "back-login visable";
+}
