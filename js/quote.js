@@ -64,22 +64,8 @@ document.getElementById("sign-in").addEventListener("click", signIn, false);
 
 function signIn(){
 
-    users = ["dimalis", "admin", "user"];
-    let currentUser = document.getElementById("login-value").value;
-    let userIsReal = false;
-    for (user of users)
-    {
-        user == currentUser ? userIsReal = true : userIsReal;
-    }
-
-    if (userIsReal == true && document.getElementById("password").value == "164200"){
         document.getElementById("login").className = "login invisible";
         document.getElementById("login-back").className = "back-login invisable";
-    }
-    else{
-        alert("User not found");
-    }
-
 }
 
 document.getElementById("login-page").addEventListener("click", signInPage, false);

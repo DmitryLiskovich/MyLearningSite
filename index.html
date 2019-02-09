@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div id="login-back" class="back-login invisable" height="100%">
-        <div class="login invisible" id="login">
-                <h1>Sign in</h1>
-                <input id="login-value" class="login-input" type="text" placeholder="Login">
-                <input id="password" class="password-input" type="password" placeholder="Password">
-                <button class="sign-in" id="sign-in">Sign          in</button>
-                <p>or <i>Register</i></p>
-        </div>
-    </div>
+        <form id="login-back" class="back-login" height="100%" action="/login" method="POST">
+            <div class="login invisible" id="login">
+                    <h1>Login</h1>
+                    <input id="login-value" class="login-input" type="text" name="Login" placeholder="Login">
+                    <input id="password" class="password-input" type="password" name="Pass" placeholder="Password" >
+                    <button class="sign-in" id="sign-in" type="submit">Login</button>
+                    <p>or <i>Register</i></p>
+            </div>
+        </form>
     <header>
         <div class="header">
             <div class="image">
@@ -57,7 +57,7 @@
     <main>
         <div class="Main">
                 <div class="Registr">
-                    <p>REGISTR</p>
+                    <a href="http://localhost:3000/registration"><p>REGISTR</p></a>
                 </div>
                 <div class="Login" id="login-page">
                     <p>LOGIN</p>
